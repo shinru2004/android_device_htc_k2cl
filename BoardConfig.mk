@@ -95,6 +95,7 @@ WPA_SUPPLICANT_VERSION           := VER_0_8_X
 BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_bcmdhd
 BOARD_WLAN_DEVICE := bcmdhd
+BOARD_WLAN_DEVICE_REV := bcm4334
 WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/bcmdhd.ko"
 WIFI_DRIVER_MODULE_NAME := "bcmdhd"
 WIFI_DRIVER_FW_PATH_STA := "/system/etc/firmware/fw_bcm4334.bin"
